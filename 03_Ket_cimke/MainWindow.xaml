@@ -1,0 +1,37 @@
+﻿<Window x:Class="Ket_cimke.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ket_cimke"
+        mc:Ignorable="d"
+        Title="Két címke" Height="450" Width="400">
+    <Window.Resources>
+        <!-- Az alblak elemeinek tulajdonságai kerülnek ide -->
+        <Style TargetType="Label">
+            <Setter Property="Width" Value="auto"/> <!-- szélessége -->
+            <Setter Property="FontSize" Value="30pt" /> <!-- Font nagysága -->
+            <Setter Property="HorizontalAlignment" Value="Center" /> <!-- vízszintes rendezése -->
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="200px" />
+            <Setter Property="FontSize" Value="15pt" />
+            <Setter Property="Margin" Value="0,10,0,10"/> <!-- margó: bal, fent, jobb, lent -->
+            <Setter Property="FontWeight" Value="Bold"/> <!-- A font stílus -->
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions> <!-- Itt definiáljuk a rácsok számát és annak tulajdonságait -->
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="lbl1" Content="szöveg" Grid.Row="0" />
+        <Label x:Name="lbl2" Content="szöveg" Grid.Row="1" BorderBrush="#FFDA4625" BorderThickness="10" />
+        <Button x:Name="btn1" Content="Felső címke" Click="Felso_Click" Grid.Row="2" />
+        <Button x:Name="btn2" Content="Alsó címke" Click="Also_Click" Grid.Row="3" />
+
+    </Grid>
+</Window>

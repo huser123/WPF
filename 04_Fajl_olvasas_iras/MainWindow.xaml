@@ -1,0 +1,18 @@
+﻿<Window x:Class="Fajl_olvasas_iras.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fajl_olvasas_iras"
+        mc:Ignorable="d"
+        Title="Fájl olvasás és mentés" Height="450" Width="422" Closing="Window_Closing">
+    <Grid>
+        <Button Content="Feltölt" Click="Feltolt_Click" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" x:Name="btnFeltolt" />
+        <ListBox x:Name="lbox1" Margin="90,52,90,150"/>
+        <Button Content="Módosít" x:Name="btnModosit" Click="Modosit_Click" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx1" HorizontalAlignment="Center" Margin="0,345,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Ment" x:Name="btnMent" Click="Mentes_Click" HorizontalAlignment="Center" Margin="0,388,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

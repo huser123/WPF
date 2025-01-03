@@ -1,0 +1,15 @@
+﻿<Window x:Class="_02_Fajl_beolvasas_alap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_02_Fajl_beolvasas_alap"
+        mc:Ignorable="d"
+        Title="Lista feltöltése fájlból" Height="450" Width="336">
+    <Grid>
+        <ListBox x:Name="lbox1" Margin="38,24,47,136"/>
+        <Button x:Name="btn1" Content="Feltölteni" Click="Fetolt_Click"  HorizontalAlignment="Left" Margin="111,313,0,0" VerticalAlignment="Top" Height="33" Width="105"/>
+
+
+    </Grid>
+</Window>

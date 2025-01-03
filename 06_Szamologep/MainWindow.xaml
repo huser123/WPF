@@ -1,0 +1,67 @@
+﻿<Window x:Class="Szamologep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Szamologep"
+        mc:Ignorable="d"
+        Title="Számológép" Height="450" Width="354">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="50" />
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Label x:Name="lblEredmeny" Content="Eredmény: " Grid.Row="0" />
+        <TextBox x:Name="tbxBevitel" Text="" Grid.Row="1" />
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="n7" Content="7" Grid.Row="0" Grid.Column="0" Click="n7_Click" />
+            <Button x:Name="n8" Content="8" Grid.Row="0" Grid.Column="1" Click="n8_Click" />
+            <Button x:Name="n9" Content="9" Grid.Row="0" Grid.Column="2" Click="n9_Click" />
+            <Button x:Name="nP" Content="+" Grid.Row="0" Grid.Column="3" Click="nP_Click" />
+
+            <Button x:Name="n4" Content="4" Grid.Row="1" Grid.Column="0" Click="n4_Click" />
+            <Button x:Name="n5" Content="5" Grid.Row="1" Grid.Column="1" Click="n5_Click" />
+            <Button x:Name="n6" Content="6" Grid.Row="1" Grid.Column="2" Click="n6_Click" />
+            <Button x:Name="nM" Content="-" Grid.Row="1" Grid.Column="3" Click="nM_Click" />
+
+            <Button x:Name="n1" Content="1" Grid.Row="2" Grid.Column="0" Click="n1_Click" />
+            <Button x:Name="n2" Content="2" Grid.Row="2" Grid.Column="1" Click="n2_Click" />
+            <Button x:Name="n3" Content="3" Grid.Row="2" Grid.Column="2" Click="n3_Click" />
+            <Button x:Name="nSz" Content="*" Grid.Row="2" Grid.Column="3" Click="nSz_Click" />
+
+            <Button x:Name="n0" Content="0" Grid.Row="3" Grid.Column="0" Click="n0_Click" />
+            <Button x:Name="nV" Content="," Grid.Row="3" Grid.Column="1" Click="nV_Click" />
+            <Button x:Name="nE" Content="=" Grid.Row="3" Grid.Column="2" Click="nE_Click" />
+            <Button x:Name="nO" Content="/" Grid.Row="3" Grid.Column="3" Click="nO_Click" />
+
+        </Grid>
+
+    </Grid>
+</Window>

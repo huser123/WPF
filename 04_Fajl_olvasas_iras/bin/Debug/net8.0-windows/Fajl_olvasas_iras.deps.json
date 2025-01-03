@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Fajl_olvasas_iras/1.0.0": {
+        "runtime": {
+          "Fajl_olvasas_iras.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fajl_olvasas_iras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

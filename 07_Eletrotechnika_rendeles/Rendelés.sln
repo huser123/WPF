@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rendelés", "Rendelés.csproj", "{FF5E7E7E-6B83-4D73-BADA-085F6AAAED0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF5E7E7E-6B83-4D73-BADA-085F6AAAED0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5E7E7E-6B83-4D73-BADA-085F6AAAED0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5E7E7E-6B83-4D73-BADA-085F6AAAED0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5E7E7E-6B83-4D73-BADA-085F6AAAED0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7ACCE69-37EF-47E2-81A9-6E3AC233AAC3}
+	EndGlobalSection
+EndGlobal

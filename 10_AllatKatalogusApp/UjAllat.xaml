@@ -1,0 +1,46 @@
+﻿<Window x:Class="AllatKatalogusApp.UjAllat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Új Állat Hozzáadása" Height="400" Width="300">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Név mező -->
+        <TextBlock Text="Név:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
+        <TextBox x:Name="tbNev" Grid.Row="0" Grid.Column="1" Margin="5" />
+
+        <!-- Élőhely mező -->
+        <TextBlock Text="Élőhely:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" />
+        <TextBox x:Name="tbElohely" Grid.Row="1" Grid.Column="1" Margin="5" />
+
+        <!-- Élettartam mező -->
+        <TextBlock Text="Élettartam (év):" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
+        <TextBox x:Name="tbEletkor" Grid.Row="2" Grid.Column="1" Margin="5" />
+
+        <!-- Veszélyeztetett státusz mező -->
+        <TextBlock Text="Veszélyeztetett státusz:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" />
+        <TextBox x:Name="tbVeszelyeztetett" Grid.Row="3" Grid.Column="1" Margin="5" />
+
+        <!-- Méret mező -->
+        <TextBlock Text="Méret (cm):" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" />
+        <TextBox x:Name="tbMeret" Grid.Row="4" Grid.Column="1" Margin="5" />
+
+        <!-- Gombok -->
+        <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <Button x:Name="btnMentes" Content="Mentés" Width="80" Margin="5" Click="btnMentes_Click" />
+            <Button x:Name="btnMegse" Content="Mégse" Width="80" Margin="5" Click="btnMegse_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,354 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Az idő rövid története",
+      "author": "Stephen Hawking",
+      "genre": "Tudomány",
+      "publicationYear": 1988
+    },
+    {
+      "id": 2,
+      "title": "A Gyűrűk Ura",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publicationYear": 1954
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystópia",
+      "publicationYear": 1949
+    },
+    {
+      "id": 4,
+      "title": "A Kis herceg",
+      "author": "Antoine de Saint-Exupéry",
+      "genre": "Gyermekirodalom",
+      "publicationYear": 1943
+    },
+    {
+      "id": 5,
+      "title": "Az alkimista",
+      "author": "Paulo Coelho",
+      "genre": "Fikció",
+      "publicationYear": 1988
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter és a bölcsek köve",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "publicationYear": 1997
+    },
+    {
+      "id": 7,
+      "title": "Értelem és érzelem",
+      "author": "Jane Austen",
+      "genre": "Romantikus",
+      "publicationYear": 1811
+    },
+    {
+      "id": 8,
+      "title": "Háború és béke",
+      "author": "Lev Tolsztoj",
+      "genre": "Történelmi",
+      "publicationYear": 1869
+    },
+    {
+      "id": 9,
+      "title": "Don Quijote",
+      "author": "Miguel de Cervantes",
+      "genre": "Klasszikus",
+      "publicationYear": 1605
+    },
+    {
+      "id": 10,
+      "title": "A per",
+      "author": "Franz Kafka",
+      "genre": "Modern",
+      "publicationYear": 1925
+    },
+    {
+      "id": 11,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Klasszikus",
+      "publicationYear": 1847
+    },
+    {
+      "id": 12,
+      "title": "A katedrális",
+      "author": "Ken Follett",
+      "genre": "Történelmi",
+      "publicationYear": 1989
+    },
+    {
+      "id": 13,
+      "title": "Tüskevár",
+      "author": "Fekete István",
+      "genre": "Ifjúsági",
+      "publicationYear": 1957
+    },
+    {
+      "id": 14,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romantikus",
+      "publicationYear": 1813
+    },
+    {
+      "id": 15,
+      "title": "Macskajáték",
+      "author": "Örkény István",
+      "genre": "Szépirodalom",
+      "publicationYear": 1963
+    },
+    {
+      "id": 16,
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "genre": "Történelmi",
+      "publicationYear": 1899
+    },
+    {
+      "id": 17,
+      "title": "A varázshegy",
+      "author": "Thomas Mann",
+      "genre": "Modern",
+      "publicationYear": 1924
+    },
+    {
+      "id": 18,
+      "title": "A kincses sziget",
+      "author": "Robert Louis Stevenson",
+      "genre": "Kaland",
+      "publicationYear": 1883
+    },
+    {
+      "id": 19,
+      "title": "A Zahir",
+      "author": "Paulo Coelho",
+      "genre": "Fikció",
+      "publicationYear": 2005
+    },
+    {
+      "id": 20,
+      "title": "A rózsa neve",
+      "author": "Umberto Eco",
+      "genre": "Történelmi",
+      "publicationYear": 1980
+    },
+    {
+      "id": 21,
+      "title": "Büszkeség és balítélet",
+      "author": "Jane Austen",
+      "genre": "Romantikus",
+      "publicationYear": 1813
+    },
+    {
+      "id": 22,
+      "title": "Az utolsó mohikán",
+      "author": "James Fenimore Cooper",
+      "genre": "Kaland",
+      "publicationYear": 1826
+    },
+    {
+      "id": 23,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Horror",
+      "publicationYear": 1818
+    },
+    {
+      "id": 24,
+      "title": "Drakula",
+      "author": "Bram Stoker",
+      "genre": "Horror",
+      "publicationYear": 1897
+    },
+    {
+      "id": 25,
+      "title": "Sherlock Holmes kalandjai",
+      "author": "Arthur Conan Doyle",
+      "genre": "Detektív",
+      "publicationYear": 1892
+    },
+    {
+      "id": 26,
+      "title": "A láthatatlan ember",
+      "author": "H.G. Wells",
+      "genre": "Sci-fi",
+      "publicationYear": 1897
+    },
+    {
+      "id": 27,
+      "title": "A halál színei",
+      "author": "Terry Pratchett",
+      "genre": "Fantasy",
+      "publicationYear": 1988
+    },
+    {
+      "id": 28,
+      "title": "Galaxis útikalauz stopposoknak",
+      "author": "Douglas Adams",
+      "genre": "Sci-fi",
+      "publicationYear": 1979
+    },
+    {
+      "id": 29,
+      "title": "Az aranyember",
+      "author": "Jókai Mór",
+      "genre": "Történelmi",
+      "publicationYear": 1872
+    },
+    {
+      "id": 30,
+      "title": "A nagy Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Modern",
+      "publicationYear": 1925
+    },
+    {
+      "id": 31,
+      "title": "Az emlékek őre",
+      "author": "Lois Lowry",
+      "genre": "Dystópia",
+      "publicationYear": 1993
+    },
+    {
+      "id": 32,
+      "title": "A végtelen történet",
+      "author": "Michael Ende",
+      "genre": "Fantasy",
+      "publicationYear": 1979
+    },
+    {
+      "id": 33,
+      "title": "A Da Vinci-kód",
+      "author": "Dan Brown",
+      "genre": "Thriller",
+      "publicationYear": 2003
+    },
+    {
+      "id": 34,
+      "title": "A szél árnyéka",
+      "author": "Carlos Ruiz Zafón",
+      "genre": "Rejtély",
+      "publicationYear": 2001
+    },
+    {
+      "id": 35,
+      "title": "Az ördög ügyvédje",
+      "author": "Andrew Neiderman",
+      "genre": "Thriller",
+      "publicationYear": 1990
+    },
+    {
+      "id": 36,
+      "title": "A remény rabjai",
+      "author": "Stephen King",
+      "genre": "Dráma",
+      "publicationYear": 1982
+    },
+    {
+      "id": 37,
+      "title": "Christine",
+      "author": "Stephen King",
+      "genre": "Horror",
+      "publicationYear": 1983
+    },
+    {
+      "id": 38,
+      "title": "A sárkány szeme",
+      "author": "Stephen King",
+      "genre": "Fantasy",
+      "publicationYear": 1984
+    },
+    {
+      "id": 39,
+      "title": "A tűz és jég dala",
+      "author": "George R.R. Martin",
+      "genre": "Fantasy",
+      "publicationYear": 1996
+    },
+    {
+      "id": 40,
+      "title": "Éhezők viadala",
+      "author": "Suzanne Collins",
+      "genre": "Dystópia",
+      "publicationYear": 2008
+    },
+    {
+      "id": 41,
+      "title": "A szürke ötven árnyalata",
+      "author": "E.L. James",
+      "genre": "Romantikus",
+      "publicationYear": 2011
+    },
+    {
+      "id": 42,
+      "title": "Anna Karenina",
+      "author": "Lev Tolsztoj",
+      "genre": "Klasszikus",
+      "publicationYear": 1877
+    },
+    {
+      "id": 43,
+      "title": "A nyomorultak",
+      "author": "Victor Hugo",
+      "genre": "Történelmi",
+      "publicationYear": 1862
+    },
+    {
+      "id": 44,
+      "title": "Könyv tolvaj",
+      "author": "Markus Zusak",
+      "genre": "Dráma",
+      "publicationYear": 2005
+    },
+    {
+      "id": 45,
+      "title": "Shantaram",
+      "author": "Gregory David Roberts",
+      "genre": "Kaland",
+      "publicationYear": 2003
+    },
+    {
+      "id": 46,
+      "title": "A nevető ember",
+      "author": "Victor Hugo",
+      "genre": "Klasszikus",
+      "publicationYear": 1869
+    },
+    {
+      "id": 47,
+      "title": "Vak vezet világtalant",
+      "author": "José Saramago",
+      "genre": "Modern",
+      "publicationYear": 1995
+    },
+    {
+      "id": 48,
+      "title": "Világvége és a keményre főtt csodaország",
+      "author": "Haruki Murakami",
+      "genre": "Modern",
+      "publicationYear": 1985
+    },
+    {
+      "id": 49,
+      "title": "Kafka a tengerparton",
+      "author": "Haruki Murakami",
+      "genre": "Modern",
+      "publicationYear": 2002
+    },
+    {
+      "id": 50,
+      "title": "A hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publicationYear": 1937
+    }
+  ]
+}

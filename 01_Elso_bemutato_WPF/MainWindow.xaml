@@ -1,0 +1,39 @@
+﻿<Window x:Class="_01_Elso_bemutato.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_01_Elso_bemutato"
+        mc:Ignorable="d"
+        Title="Bemutató óra" Height="496" Width="284">
+    <Window.Resources>
+        <!-- ide kerülnek az ablak elemeinek kollektív tulajdonságai -->
+        <Style TargetType="Button"> <!-- itt határozom meg az elemet, aminek a tulajdonságait módosítom -->
+            <Setter Property="Width" Value="150px" /> <!-- itt határozom meg a tulajdonságot -->
+            <Setter Property="Margin" Value="0,10,0,10"/> <!-- bal, fent, jobb, lent -->
+            <Setter Property="Height" Value="30px" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Itt definiálom a sorokat és annak a tulajdonságait -->
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="lbox1" Grid.Row="0" Height="250px" Width="200px" />
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Background="green" Margin="10">
+            <Button x:Name="btn1" Content="Hozzá ad"  Click="Hozzaad_Click" />
+            <Button x:Name="btn2" Content="Töröl"  Click="Torol_Click" />
+            <Button x:Name="btn3" Content="Módosít"  Click="Modosit_Click" />
+        </StackPanel>
+
+        <TextBox x:Name="tbx1" Text="" Grid.Row="5" Margin="0,10,0,0" Width="150px" Height="30px" />
+
+    </Grid>
+</Window>

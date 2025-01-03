@@ -1,0 +1,404 @@
+{
+  "Filmek": [
+    {
+      "Id": 1,
+      "Cim": "A remény rabjai",
+      "Rendező": "Frank Darabont",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1994,
+      "IMDbPontszam": 9.3
+    },
+    {
+      "Id": 2,
+      "Cim": "A keresztapa",
+      "Rendező": "Francis Ford Coppola",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1972,
+      "IMDbPontszam": 9.2
+    },
+    {
+      "Id": 3,
+      "Cim": "A sötét lovag",
+      "Rendező": "Christopher Nolan",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2008,
+      "IMDbPontszam": 9
+    },
+    {
+      "Id": 4,
+      "Cim": "A Keresztapa II",
+      "Rendező": "Francis Ford Coppola",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1974,
+      "IMDbPontszam": 9
+    },
+    {
+      "Id": 5,
+      "Cim": "Tizenkét dühös ember",
+      "Rendező": "Sidney Lumet",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1957,
+      "IMDbPontszam": 9
+    },
+    {
+      "Id": 6,
+      "Cim": "Schindler listája",
+      "Rendező": "Steven Spielberg",
+      "Mufaj": "Történelmi",
+      "MegjelenesiEv": 1993,
+      "IMDbPontszam": 8.9
+    },
+    {
+      "Id": 7,
+      "Cim": "A Gyűrűk Ura: A király visszatér",
+      "Rendező": "Peter Jackson",
+      "Mufaj": "Fantasy",
+      "MegjelenesiEv": 2003,
+      "IMDbPontszam": 8.9
+    },
+    {
+      "Id": 8,
+      "Cim": "Pulp Fiction",
+      "Rendező": "Quentin Tarantino",
+      "Mufaj": "Krimi",
+      "MegjelenesiEv": 1994,
+      "IMDbPontszam": 8.9
+    },
+    {
+      "Id": 9,
+      "Cim": "A Jó, a Rossz és a Csúf",
+      "Rendező": "Sergio Leone",
+      "Mufaj": "Western",
+      "MegjelenesiEv": 1966,
+      "IMDbPontszam": 8.8
+    },
+    {
+      "Id": 10,
+      "Cim": "A Gyűrűk Ura: A két torony",
+      "Rendező": "Peter Jackson",
+      "Mufaj": "Fantasy",
+      "MegjelenesiEv": 2002,
+      "IMDbPontszam": 8.8
+    },
+    {
+      "Id": 11,
+      "Cim": "Forrest Gump",
+      "Rendező": "Robert Zemeckis",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1994,
+      "IMDbPontszam": 8.8
+    },
+    {
+      "Id": 12,
+      "Cim": "Csillagok háborúja: Birodalom visszavág",
+      "Rendező": "Irvin Kershner",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 1980,
+      "IMDbPontszam": 8.7
+    },
+    {
+      "Id": 13,
+      "Cim": "Mátrix",
+      "Rendező": "The Wachowskis",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 1999,
+      "IMDbPontszam": 8.7
+    },
+    {
+      "Id": 14,
+      "Cim": "Harcosok klubja",
+      "Rendező": "David Fincher",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1999,
+      "IMDbPontszam": 8.7
+    },
+    {
+      "Id": 15,
+      "Cim": "Hetedik",
+      "Rendező": "David Fincher",
+      "Mufaj": "Thriller",
+      "MegjelenesiEv": 1995,
+      "IMDbPontszam": 8.6
+    },
+    {
+      "Id": 16,
+      "Cim": "A Gyűrűk Ura: A Gyűrű Szövetsége",
+      "Rendező": "Peter Jackson",
+      "Mufaj": "Fantasy",
+      "MegjelenesiEv": 2001,
+      "IMDbPontszam": 8.8
+    },
+    {
+      "Id": 17,
+      "Cim": "Gladiátor",
+      "Rendező": "Ridley Scott",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2000,
+      "IMDbPontszam": 8.5
+    },
+    {
+      "Id": 18,
+      "Cim": "Amerikai História X",
+      "Rendező": "Tony Kaye",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1998,
+      "IMDbPontszam": 8.5
+    },
+    {
+      "Id": 19,
+      "Cim": "Eredet",
+      "Rendező": "Christopher Nolan",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 2010,
+      "IMDbPontszam": 8.8
+    },
+    {
+      "Id": 20,
+      "Cim": "Farkasokkal táncoló",
+      "Rendező": "Kevin Costner",
+      "Mufaj": "Történelmi",
+      "MegjelenesiEv": 1990,
+      "IMDbPontszam": 8.5
+    },
+    {
+      "Id": 21,
+      "Cim": "Braveheart",
+      "Rendező": "Mel Gibson",
+      "Mufaj": "Történelmi",
+      "MegjelenesiEv": 1995,
+      "IMDbPontszam": 8.4
+    },
+    {
+      "Id": 22,
+      "Cim": "A Zöld Mérföld",
+      "Rendező": "Frank Darabont",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1999,
+      "IMDbPontszam": 8.6
+    },
+    {
+      "Id": 23,
+      "Cim": "Szárnyas Fejvadász",
+      "Rendező": "Ridley Scott",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 1982,
+      "IMDbPontszam": 8.2
+    },
+    {
+      "Id": 24,
+      "Cim": "Száll a Kakukk Fészkére",
+      "Rendező": "Milos Forman",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1975,
+      "IMDbPontszam": 8.7
+    },
+    {
+      "Id": 25,
+      "Cim": "Batman: Kezdődik",
+      "Rendező": "Christopher Nolan",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2005,
+      "IMDbPontszam": 8.3
+    },
+    {
+      "Id": 26,
+      "Cim": "Django elszabadul",
+      "Rendező": "Quentin Tarantino",
+      "Mufaj": "Western",
+      "MegjelenesiEv": 2012,
+      "IMDbPontszam": 8.4
+    },
+    {
+      "Id": 27,
+      "Cim": "Interstellar",
+      "Rendező": "Christopher Nolan",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 2014,
+      "IMDbPontszam": 8.6
+    },
+    {
+      "Id": 28,
+      "Cim": "A Karib-tenger kalózai: Fekete Gyöngy átka",
+      "Rendező": "Gore Verbinski",
+      "Mufaj": "Kaland",
+      "MegjelenesiEv": 2003,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 29,
+      "Cim": "A nyomozás",
+      "Rendező": "Claude Miller",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1981,
+      "IMDbPontszam": 8.2
+    },
+    {
+      "Id": 30,
+      "Cim": "A mestergyilkos",
+      "Rendező": "Michael Winner",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 1972,
+      "IMDbPontszam": 7.9
+    },
+    {
+      "Id": 31,
+      "Cim": "Képtelen történet",
+      "Rendező": "László Barabás",
+      "Mufaj": "Mese",
+      "MegjelenesiEv": 1978,
+      "IMDbPontszam": 7.2
+    },
+    {
+      "Id": 32,
+      "Cim": "Az élet szép",
+      "Rendező": "Roberto Benigni",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1997,
+      "IMDbPontszam": 8.6
+    },
+    {
+      "Id": 33,
+      "Cim": "Titanic",
+      "Rendező": "James Cameron",
+      "Mufaj": "Romantikus",
+      "MegjelenesiEv": 1997,
+      "IMDbPontszam": 7.8
+    },
+    {
+      "Id": 34,
+      "Cim": "Deadpool",
+      "Rendező": "Tim Miller",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2016,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 35,
+      "Cim": "Joker",
+      "Rendező": "Todd Phillips",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 2019,
+      "IMDbPontszam": 8.4
+    },
+    {
+      "Id": 36,
+      "Cim": "Kill Bill",
+      "Rendező": "Quentin Tarantino",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2003,
+      "IMDbPontszam": 8.1
+    },
+    {
+      "Id": 37,
+      "Cim": "Reszkessetek betörők!",
+      "Rendező": "Chris Columbus",
+      "Mufaj": "Vígjáték",
+      "MegjelenesiEv": 1990,
+      "IMDbPontszam": 7.6
+    },
+    {
+      "Id": 38,
+      "Cim": "Jurassic Park",
+      "Rendező": "Steven Spielberg",
+      "Mufaj": "Kaland",
+      "MegjelenesiEv": 1993,
+      "IMDbPontszam": 8.1
+    },
+    {
+      "Id": 39,
+      "Cim": "A bosszúállók",
+      "Rendező": "Joss Whedon",
+      "Mufaj": "Akció",
+      "MegjelenesiEv": 2012,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 40,
+      "Cim": "A tégla",
+      "Rendező": "Martin Scorsese",
+      "Mufaj": "Krimi",
+      "MegjelenesiEv": 2006,
+      "IMDbPontszam": 8.5
+    },
+    {
+      "Id": 41,
+      "Cim": "Holt költők társasága",
+      "Rendező": "Peter Weir",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 1989,
+      "IMDbPontszam": 8.1
+    },
+    {
+      "Id": 42,
+      "Cim": "Star Wars: Egy új remény",
+      "Rendező": "George Lucas",
+      "Mufaj": "Sci-fi",
+      "MegjelenesiEv": 1977,
+      "IMDbPontszam": 8.6
+    },
+    {
+      "Id": 43,
+      "Cim": "A Király beszéde",
+      "Rendező": "Tom Hooper",
+      "Mufaj": "Dráma",
+      "MegjelenesiEv": 2010,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 44,
+      "Cim": "A Szörny Rt.",
+      "Rendező": "Pete Docter",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 2001,
+      "IMDbPontszam": 8.1
+    },
+    {
+      "Id": 45,
+      "Cim": "Toy Story",
+      "Rendező": "John Lasseter",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 1995,
+      "IMDbPontszam": 8.3
+    },
+    {
+      "Id": 46,
+      "Cim": "Aladdin",
+      "Rendező": "Ron Clements",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 1992,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 47,
+      "Cim": "A szépség és a szörnyeteg",
+      "Rendező": "Gary Trousdale",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 1991,
+      "IMDbPontszam": 8
+    },
+    {
+      "Id": 48,
+      "Cim": "Shrek",
+      "Rendező": "Andrew Adamson",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 2001,
+      "IMDbPontszam": 7.9
+    },
+    {
+      "Id": 49,
+      "Cim": "Jégvarázs",
+      "Rendező": "Chris Buck",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 2013,
+      "IMDbPontszam": 7.4
+    },
+    {
+      "Id": 50,
+      "Cim": "A kis herceg",
+      "Rendező": "Mark Osborne",
+      "Mufaj": "Animációs",
+      "MegjelenesiEv": 2015,
+      "IMDbPontszam": 7.7
+    }
+  ]
+}

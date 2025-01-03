@@ -1,0 +1,6 @@
+A felhasználó által rendelt eszközök:
+
+Csipesz - ár: 270,53€
+Forrasztóállomás - ár: 31,91€
+
+Az ár összesen: 302,4399€

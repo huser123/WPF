@@ -1,0 +1,15 @@
+C:\Users\User\Documents\C#\Szamologep\bin\Debug\Szamologep.exe.config
+C:\Users\User\Documents\C#\Szamologep\bin\Debug\Szamologep.exe
+C:\Users\User\Documents\C#\Szamologep\bin\Debug\Szamologep.pdb
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\App.g.cs
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep_MarkupCompile.cache
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep_MarkupCompile.lref
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.g.resources
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.Properties.Resources.resources
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.csproj.GenerateResource.cache
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.exe
+C:\Users\User\Documents\C#\Szamologep\obj\Debug\Szamologep.pdb

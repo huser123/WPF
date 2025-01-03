@@ -1,0 +1,70 @@
+﻿<Window x:Class="EtteremKatalogus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="Étterem Katalógus" Height="706" Width="800">
+    <Grid Margin="10">
+        <!-- Fő Grid a felület elrendezéséhez -->
+        <Grid.ColumnDefinitions>
+            <!-- Oszlopok definiálása -->
+            <ColumnDefinition Width="3*" />
+            <!-- Az első oszlop szélessége -->
+            <ColumnDefinition Width="2*" />
+            <!-- A második oszlop szélessége -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Éttermek listájának megjelenítése -->
+        <ListBox x:Name="lbEttermek" Grid.Column="0" Margin="5" DisplayMemberPath="Nev" SelectionChanged="lbEttermek_SelectionChanged" />
+        <!-- ListBox az éttermek nevének megjelenítéséhez -->
+
+        <!-- Műveleti vezérlők -->
+        <StackPanel Grid.Column="1" Margin="5">
+            <!-- StackPanel a vezérlők számára -->
+
+            <Label Content="Étterem neve:" />
+            <!-- Label a név mezőhöz -->
+            <TextBox x:Name="tbNev" Margin="0,0,0,5" />
+            <!-- Név mező -->
+
+            <Label Content="Város:" />
+            <!-- Label a város mezőhöz -->
+            <TextBox x:Name="tbVaros" Margin="0,0,0,5" />
+            <!-- Város mező -->
+
+            <Label Content="Cím:" />
+            <!-- Label a cím mezőhöz -->
+            <TextBox x:Name="tbCim" Margin="0,0,0,5" />
+            <!-- Cím mező -->
+
+            <Label Content="Ár kategória:" />
+            <!-- Label az ár kategória mezőhöz -->
+            <ComboBox x:Name="cbArkategoria" Margin="0,0,0,10">
+                <!-- Ár kategória mező -->
+                <ComboBoxItem Content="Alacsony" />
+                <ComboBoxItem Content="Közepes" />
+                <ComboBoxItem Content="Magas" />
+            </ComboBox>
+
+            <Button x:Name="btnHozzaadas" Content="Hozzáadás" Click="btnHozzaadas_Click" Margin="0,0,0,5" />
+            <!-- Hozzáadás gomb -->
+            <Button x:Name="btnTorles" Content="Törlés" Click="btnTorles_Click" Margin="0,0,0,5" />
+            <!-- Törlés gomb -->
+
+            <Label Content="Szűrés város szerint:" />
+            <!-- Label a szűrés mezőhöz -->
+            <TextBox x:Name="tbSzuresVaros" Margin="0,10,0,5" />
+            <!-- Szűrés város szerint mező -->
+            <Button x:Name="btnSzures" Content="Szűrés" Click="btnSzures_Click" Margin="0,0,0,5" />
+            <!-- Szűrés gomb -->
+            <Button x:Name="btnMentes" Content="Szűrt adatok mentése" Click="btnMentes_Click" Margin="0,0,0,5" />
+            <!-- Mentés gomb -->
+        </StackPanel>
+
+        <!-- OxyPlot diagram a város szerinti megoszlásról -->
+        <oxy:PlotView x:Name="plotView" Margin="463,384,5,36" Height="250" Grid.ColumnSpan="2" />
+        <!-- Diagram megjelenítése -->
+    </Grid>
+</Window>

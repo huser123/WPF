@@ -1,0 +1,15 @@
+C:\Users\csi\Documents\14CS\Jelzolampa\bin\Debug\Jelzolampa.exe.config
+C:\Users\csi\Documents\14CS\Jelzolampa\bin\Debug\Jelzolampa.exe
+C:\Users\csi\Documents\14CS\Jelzolampa\bin\Debug\Jelzolampa.pdb
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.csproj.AssemblyReference.cache
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\MainWindow.g.cs
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\App.g.cs
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa_MarkupCompile.cache
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa_MarkupCompile.lref
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\MainWindow.baml
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.g.resources
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.Properties.Resources.resources
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.csproj.GenerateResource.cache
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.csproj.CoreCompileInputs.cache
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.exe
+C:\Users\csi\Documents\14CS\Jelzolampa\obj\Debug\Jelzolampa.pdb

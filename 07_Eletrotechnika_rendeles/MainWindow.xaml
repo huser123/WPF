@@ -1,0 +1,38 @@
+﻿<Window x:Class="Rendelés.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rendelés"
+        mc:Ignorable="d"
+        Title="Elektro bolt" Height="500" Width="500" Background="#FF4157D4">
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Image Source="kep.jpg" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Top" /> <!-- a *Span azt jelenti, hogy annyira nyúlik szét -->
+
+        <ListBox Grid.Row="1" x:Name="lboxArucikkek" Grid.Column="0" Width="auto" Height="150" Margin="5,5,5,5" VerticalAlignment="Top"  />
+        <ListBox Grid.Row="1" x:Name="lboxKivalasztott" Grid.Column="2" Width="auto" Height="150" Margin="5,5,5,5" VerticalAlignment="Top"  />
+
+        <StackPanel Grid.Column="0" VerticalAlignment="bottom" Height="auto"  HorizontalAlignment="Center" Orientation="Horizontal" Margin="0,5,0,50" Grid.Row="1">
+            <Button x:Name="btnHozzaad" Content="Hozzáad" Height="60" Width="100" FontSize="20" FontWeight="bold" Click="btnHozzaad_Click" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" VerticalAlignment="bottom" Height="auto"  HorizontalAlignment="Center" Orientation="Horizontal" Margin="0,5,0,50" Grid.Row="1">
+            <Button x:Name="btnTorol" Content="Töröl" Height="60" Width="100" FontSize="20" FontWeight="bold" Margin="5" Click="btnTorol_Click" />
+            <Button x:Name="btnRendel" Content="Rendel" Height="60" Width="100" FontSize="20" FontWeight="bold" Margin="5" Click="btnRendel_Click" />
+        </StackPanel>
+        <Label x:Name="lblAr" Content="Ár eddig:" FontSize="15" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="1" Foreground="Red" />
+
+    </Grid>
+</Window>

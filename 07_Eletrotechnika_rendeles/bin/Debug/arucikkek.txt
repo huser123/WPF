@@ -1,0 +1,26 @@
+Alkatrész készlet:318,7
+Arduino UNO:448,44
+Csipesz:270,53
+Dell monitor:12,72
+Elektromos fúrógép:405,27
+Forrasztóállomás:31,91
+Gigabyte alaplap:344,97
+HDMI kábel:7,99
+Intel processzor:344,98
+Jelgenerátor:298,78
+Kingston SSD:475,07
+LED izzó:262,62
+Multiméter:260,57
+Nyomtató:365,22
+Oscilloszkóp:267,23
+Pákahegy:196,73
+QNAP NAS:482,24
+Raspberry Pi:95,87
+Szivárgásérzékelő:45,8
+Tápegység:229,2
+Univerzális távirányító:271,55
+Vezeték:60,39
+WiFi router:23,32
+Xiaomi okosóra:263,37
+Yamaha erősítő:393,89
+Zseblámpa:60,17

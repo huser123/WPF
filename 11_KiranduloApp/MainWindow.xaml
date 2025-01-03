@@ -1,0 +1,41 @@
+﻿<!-- MainWindow.xaml -->
+<Window x:Class="KiranduloApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kirándulóhelyek Nyilvántartása" Height="450" Width="800">
+    <Grid Margin="10">
+        <!-- ListBox a kirándulóhelyek megjelenítéséhez -->
+        <ListBox x:Name="lbxKirandulohelyek" HorizontalAlignment="Left" Width="250" Margin="10"
+                 SelectionChanged="lbxKirandulohelyek_SelectionChanged" />
+
+        <!-- Részletes adatok megjelenítése -->
+        <StackPanel HorizontalAlignment="Right" Width="500" Margin="270,10,10,10">
+            <TextBlock Text="Kirándulóhely neve:" FontWeight="Bold" />
+            <TextBox x:Name="tbNev" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <TextBlock Text="Helyszín:" FontWeight="Bold" />
+            <TextBox x:Name="tbHelyszin" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <TextBlock Text="Nehézségi szint:" FontWeight="Bold" />
+            <TextBox x:Name="tbNehezsegiSzint" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <TextBlock Text="Látogatók száma:" FontWeight="Bold" />
+            <TextBox x:Name="tbLatogatokSzama" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <TextBlock Text="Távolság (km):" FontWeight="Bold" />
+            <TextBox x:Name="tbTav" IsReadOnly="True" Margin="0,0,0,10" />
+
+            <!-- Progress bar a látogatottság vizualizálásához -->
+            <TextBlock Text="Látogatottság (százalékban):" FontWeight="Bold" />
+            <ProgressBar x:Name="pbLatogatok" Height="20" Margin="0,0,0,10" Maximum="100" />
+
+            <!-- Szűrési lehetőség -->
+            <TextBlock Text="Szűrés nehézségi szint szerint:" FontWeight="Bold" />
+            <TextBox x:Name="tbSzures" Margin="0,0,0,10" />
+            <Button Content="Szűrés" Click="btnSzures_Click" Margin="0,0,0,10" />
+
+            <!-- Adatok mentése -->
+            <Button Content="Szűrt adatok mentése" Click="btnMentes_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,404 @@
+{
+  "Allatok": [
+    {
+      "Id": 1,
+      "Nev": "Oroszlán",
+      "Elohely": "Szavanna",
+      "Eletkor": 15,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 250
+    },
+    {
+      "Id": 2,
+      "Nev": "Elefánt",
+      "Elohely": "Szavanna",
+      "Eletkor": 70,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 600
+    },
+    {
+      "Id": 3,
+      "Nev": "Delfin",
+      "Elohely": "Óceán",
+      "Eletkor": 40,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 300
+    },
+    {
+      "Id": 4,
+      "Nev": "Tigris",
+      "Elohely": "Dzsungel",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Súlyosan veszélyeztetett",
+      "Meret": 270
+    },
+    {
+      "Id": 5,
+      "Nev": "Farkas",
+      "Elohely": "Erdő",
+      "Eletkor": 14,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 150
+    },
+    {
+      "Id": 6,
+      "Nev": "Sas",
+      "Elohely": "Hegyek",
+      "Eletkor": 30,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 75
+    },
+    {
+      "Id": 7,
+      "Nev": "Róka",
+      "Elohely": "Erdő",
+      "Eletkor": 12,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 90
+    },
+    {
+      "Id": 8,
+      "Nev": "Jegesmedve",
+      "Elohely": "Sarkvidék",
+      "Eletkor": 25,
+      "VeszelyeztetettStatusz": "Súlyosan veszélyeztetett",
+      "Meret": 400
+    },
+    {
+      "Id": 9,
+      "Nev": "Pingvin",
+      "Elohely": "Sarkvidék",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 80
+    },
+    {
+      "Id": 10,
+      "Nev": "Kenguru",
+      "Elohely": "Ausztrál síkság",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 200
+    },
+    {
+      "Id": 11,
+      "Nev": "Zsiráf",
+      "Elohely": "Szavanna",
+      "Eletkor": 25,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 550
+    },
+    {
+      "Id": 12,
+      "Nev": "Medve",
+      "Elohely": "Erdő",
+      "Eletkor": 30,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 350
+    },
+    {
+      "Id": 13,
+      "Nev": "Koala",
+      "Elohely": "Eukaliptusz erdők",
+      "Eletkor": 15,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 70
+    },
+    {
+      "Id": 14,
+      "Nev": "Papagáj",
+      "Elohely": "Dzsungel",
+      "Eletkor": 60,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 40
+    },
+    {
+      "Id": 15,
+      "Nev": "Kígyó",
+      "Elohely": "Erdő",
+      "Eletkor": 25,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 200
+    },
+    {
+      "Id": 16,
+      "Nev": "Bálna",
+      "Elohely": "Óceán",
+      "Eletkor": 90,
+      "VeszelyeztetettStatusz": "Súlyosan veszélyeztetett",
+      "Meret": 3000
+    },
+    {
+      "Id": 17,
+      "Nev": "Pillangó",
+      "Elohely": "Rétek",
+      "Eletkor": 1,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 2
+    },
+    {
+      "Id": 18,
+      "Nev": "Hangya",
+      "Elohely": "Erdő",
+      "Eletkor": 0.1,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 0.1
+    },
+    {
+      "Id": 19,
+      "Nev": "Varánusz",
+      "Elohely": "Szavanna",
+      "Eletkor": 25,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 150
+    },
+    {
+      "Id": 20,
+      "Nev": "Gorilla",
+      "Elohely": "Dzsungel",
+      "Eletkor": 35,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 180
+    },
+    {
+      "Id": 21,
+      "Nev": "Szalamandra",
+      "Elohely": "Mocsár",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 25
+    },
+    {
+      "Id": 22,
+      "Nev": "Sün",
+      "Elohely": "Erdő",
+      "Eletkor": 7,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 20
+    },
+    {
+      "Id": 23,
+      "Nev": "Bagoly",
+      "Elohely": "Erdő",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 50
+    },
+    {
+      "Id": 24,
+      "Nev": "Puma",
+      "Elohely": "Hegyek",
+      "Eletkor": 15,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 250
+    },
+    {
+      "Id": 25,
+      "Nev": "Csikóhal",
+      "Elohely": "Óceán",
+      "Eletkor": 5,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 10
+    },
+    {
+      "Id": 26,
+      "Nev": "Vidra",
+      "Elohely": "Tavak",
+      "Eletkor": 10,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 60
+    },
+    {
+      "Id": 27,
+      "Nev": "Kakadu",
+      "Elohely": "Dzsungel",
+      "Eletkor": 40,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 45
+    },
+    {
+      "Id": 28,
+      "Nev": "Jávorszarvas",
+      "Elohely": "Erdő",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 500
+    },
+    {
+      "Id": 29,
+      "Nev": "Cápa",
+      "Elohely": "Óceán",
+      "Eletkor": 70,
+      "VeszelyeztetettStatusz": "Súlyosan veszélyeztetett",
+      "Meret": 400
+    },
+    {
+      "Id": 30,
+      "Nev": "Rénszarvas",
+      "Elohely": "Tundra",
+      "Eletkor": 15,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 300
+    },
+    {
+      "Id": 31,
+      "Nev": "Kolibri",
+      "Elohely": "Dzsungel",
+      "Eletkor": 5,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 10
+    },
+    {
+      "Id": 32,
+      "Nev": "Krokodil",
+      "Elohely": "Mocsár",
+      "Eletkor": 100,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 400
+    },
+    {
+      "Id": 33,
+      "Nev": "Teknős",
+      "Elohely": "Óceán",
+      "Eletkor": 120,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 150
+    },
+    {
+      "Id": 34,
+      "Nev": "Galamb",
+      "Elohely": "Városok",
+      "Eletkor": 5,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 30
+    },
+    {
+      "Id": 35,
+      "Nev": "Szurikáta",
+      "Elohely": "Szavanna",
+      "Eletkor": 12,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 50
+    },
+    {
+      "Id": 36,
+      "Nev": "Borz",
+      "Elohely": "Erdő",
+      "Eletkor": 14,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 100
+    },
+    {
+      "Id": 37,
+      "Nev": "Páva",
+      "Elohely": "Dzsungel",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 100
+    },
+    {
+      "Id": 38,
+      "Nev": "Homár",
+      "Elohely": "Óceán",
+      "Eletkor": 50,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 30
+    },
+    {
+      "Id": 39,
+      "Nev": "Csiga",
+      "Elohely": "Kertek",
+      "Eletkor": 2,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 5
+    },
+    {
+      "Id": 40,
+      "Nev": "Egér",
+      "Elohely": "Városok",
+      "Eletkor": 3,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 10
+    },
+    {
+      "Id": 41,
+      "Nev": "Sügér",
+      "Elohely": "Tavak",
+      "Eletkor": 8,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 20
+    },
+    {
+      "Id": 42,
+      "Nev": "Vakond",
+      "Elohely": "Kertek",
+      "Eletkor": 6,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 15
+    },
+    {
+      "Id": 43,
+      "Nev": "Kobra",
+      "Elohely": "Dzsungel",
+      "Eletkor": 30,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 200
+    },
+    {
+      "Id": 44,
+      "Nev": "Hörcsög",
+      "Elohely": "Kertek",
+      "Eletkor": 3,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 15
+    },
+    {
+      "Id": 45,
+      "Nev": "Liba",
+      "Elohely": "Tavak",
+      "Eletkor": 20,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 80
+    },
+    {
+      "Id": 46,
+      "Nev": "Zebra",
+      "Elohely": "Szavanna",
+      "Eletkor": 25,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 220
+    },
+    {
+      "Id": 47,
+      "Nev": "Sünhal",
+      "Elohely": "Óceán",
+      "Eletkor": 15,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 30
+    },
+    {
+      "Id": 48,
+      "Nev": "Tücsök",
+      "Elohely": "Rétek",
+      "Eletkor": 1,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 2
+    },
+    {
+      "Id": 49,
+      "Nev": "Skorpió",
+      "Elohely": "Sivatag",
+      "Eletkor": 5,
+      "VeszelyeztetettStatusz": "Veszélyeztetett",
+      "Meret": 10
+    },
+    {
+      "Id": 50,
+      "Nev": "Katicabogár",
+      "Elohely": "Kertek",
+      "Eletkor": 1,
+      "VeszelyeztetettStatusz": "Nem veszélyeztetett",
+      "Meret": 1
+    }
+  ]
+}

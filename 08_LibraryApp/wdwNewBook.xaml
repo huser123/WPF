@@ -1,0 +1,45 @@
+﻿<Window x:Class="LibraryApp.wdwNewBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Új Könyv Hozzáadása" Height="300" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Cím -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <Label Content="Cím:" Width="100" VerticalAlignment="Center" />
+            <TextBox x:Name="tbTitle" Width="200" />
+        </StackPanel>
+
+        <!-- Szerző -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            <Label Content="Szerző:" Width="100" VerticalAlignment="Center" />
+            <TextBox x:Name="tbAuthor" Width="200" />
+        </StackPanel>
+
+        <!-- Műfaj -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="5">
+            <Label Content="Műfaj:" Width="100" VerticalAlignment="Center" />
+            <TextBox x:Name="tbGenre" Width="200" />
+        </StackPanel>
+
+        <!-- Kiadási év -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="5">
+            <Label Content="Kiadási év:" Width="100" VerticalAlignment="Center" />
+            <TextBox x:Name="tbYear" Width="200" />
+        </StackPanel>
+
+        <!-- Gombok -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button x:Name="btnSave" Content="Mentés" Width="80" Margin="5" Click="btnSave_Click" />
+            <Button x:Name="btnCancel" Content="Mégse" Width="80" Margin="5" Click="btnCancel_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
