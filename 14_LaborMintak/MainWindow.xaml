@@ -1,0 +1,42 @@
+<!-- MainWindow.xaml -->
+
+<Window x:Class="LaborMintak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Labor minták nyilvántartása" Height="500" Width="900">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1.3*" />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dgMintaLista"
+                  Grid.Column="0"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  ItemsSource="{Binding Mintak}"
+                  SelectedItem="{Binding KivalasztottMinta, Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Kód" Binding="{Binding Kod}" Width="*" />
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*" />
+                <DataGridTextColumn Header="Típus" Binding="{Binding Tipus}" Width="*" />
+                <DataGridTextColumn Header="Érkezés" Binding="{Binding Erkezes, StringFormat=yyyy.MM.dd HH:mm}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBlock Text="Új minta rögzítése" FontWeight="Bold" FontSize="16" Margin="0 0 0 10" />
+            <TextBlock Text="Kód:" />
+            <TextBox x:Name="tbKod" />
+            <TextBlock Text="Beteg neve:" Margin="0 10 0 0" />
+            <TextBox x:Name="tbNev" />
+            <TextBlock Text="Minta típusa:" Margin="0 10 0 0" />
+            <TextBox x:Name="tbTipus" />
+            <Button Content="Hozzáadás" Click="btnHozzaad_Click" Margin="0 10 0 0" />
+            <TextBlock Text="Keresés kód alapján:" Margin="0 10 0 0" />
+            <TextBox x:Name="tbKereses" TextChanged="tbKereses_TextChanged" />
+            <Button Content="Törlés" Click="btnTorles_Click" Background="IndianRed" Foreground="White" Margin="0 10 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
